@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#312A20"/>
+      <stop offset="1" stop-color="#241F18"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7CF93"/>
+      <stop offset="1" stop-color="#B4914D"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="13.25" fill="none" stroke="#B4914D" stroke-opacity=".55" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="3.4">
+    <circle cx="26" cy="34" r="12"/>
+    <circle cx="40" cy="34" r="12"/>
+  </g>
+  <!-- kilau kecil pada cincin -->
+  <path d="M19 28a12 12 0 0 1 6-6" fill="none" stroke="#FBF1D6" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+  <!-- permata kecil di atas -->
+  <path d="M33 13l3 4-3 4-3-4z" fill="url(#gold)" stroke="#8C6E2E" stroke-width=".6" stroke-linejoin="round"/>
+</svg>
